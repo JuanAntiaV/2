@@ -1,0 +1,178 @@
+
+body {
+    background-image: url(https://media.istockphoto.com/id/665939740/es/foto/bicicleta-de-bmx-en-fondo-negro-con-humo.jpg?s=170667a&w=0&k=20&c=1XN0saMw32qXE5mkvcudA0uVTyFdFy2aUpxwGUC6xS8=);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  /* Estilos para los encabezados */
+  h1, h2, h3 {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #0400ff;
+    text-shadow: 1px 1px #333;
+    
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #0400ff;
+    margin-top: 40px;
+  
+  }
+  
+  h3 {
+    font-size: 18px;
+    color: #0400ff;
+    margin-top: 20px;
+  }
+  
+  .hero p {
+    color: #ffffff;
+    text-align: center;
+  }
+
+
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+   }
+
+.navbar {
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+    
+   
+  padding: 10px 20px;
+  }
+  
+  .cart-icon {
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+
+
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .App-content {
+    padding: 20px;
+  }
+  
+  .App-footer {
+    background-color: #282c34;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    
+   
+  bottom: 0;
+    width: 100%;
+  }
+  .App {
+  
+    text
+  text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    
+   
+  padding: 20px;
+    color: white;
+  }
+  
+  .Catalog {
+    padding: 20px;
+  }
+  
+  .BikeList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .Catalog {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .BikeCard {
+    
+   
+  background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .BikeCard h3 {
+    margin-top: 0;
+  }
+  
+  .BikeCard button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .BikeCard {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    
+   
+  width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.2s;
+  }
+  
+  .BikeCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .BikeCard h3 {
+    margin-top: 0;
+  }
+  
+  .BikeCard button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    
+   
+  cursor: pointer;
+  }    
